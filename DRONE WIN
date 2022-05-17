@@ -10,17 +10,19 @@ print(me.get_battery())
 me.takeoff()
 me.move_up(120)
 # drone then moves forward 743 cms
-me.move_forward(500)
+me.move_forward(506)
 me.move_forward(243)
 sleep(.5)
 # drone turns after reaching the end of the room and moves forward
 me.rotate_counter_clockwise(90)
 me.move_forward(465)
+sleep(.5)
 # drone turns back and starts to move back to the other corner
 me.rotate_clockwise(180)
 me.move_forward(465)
+sleep(.5)
 # the drone turns to face the front of the room and moves forward until it lands
 me.rotate_clockwise(90)
-me.move_forward(500)
+me.move_forward(506)
 me.move_forward(243)
 me.land()
