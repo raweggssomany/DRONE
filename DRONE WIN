@@ -24,4 +24,3 @@ me.rotate_clockwise(90)
 me.move_forward(500)
 me.move_forward(243)
 me.land()
-
